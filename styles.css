@@ -86,3 +86,28 @@ img.centered {
     line-height: 1.5;
 }
 
+.divider {
+    margin-bottom: 2.5rem;
+}
+
+/* funny button go brrr */
+.btn {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border: 2px solid #00ff00;
+    background: transparent;
+    color: #00ff00;
+    text-decoration: none;
+    cursor: pointer;
+    font: inherit;
+    border-radius: 6px;
+    transition: background-color 120ms ease, color 120ms ease, box-shadow 120ms ease;
+}
+
+.btn:hover,
+.btn:focus-visible {
+    background: #00ff00;
+    color: #131313;
+    box-shadow: 0 0 12px #00ff00;
+}
+
