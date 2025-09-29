@@ -82,7 +82,7 @@ img.centered {
 .info-content ul,
 .info-content ol {
     margin: 0 0 1rem;
-    font-size: clamp(1rem, 2.2vw, 1.25rem);
+    font-size: clamp(1.125rem, 2.6vw, 1.5rem);
     line-height: 1.5;
 }
 
