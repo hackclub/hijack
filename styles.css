@@ -16,7 +16,7 @@ body {
 .ticker {
     width: 100%;
     overflow: hidden;
-    padding: 2rem 0;
+    padding: 0.5rem 0;
 }
 
 .ticker__inner {
@@ -38,6 +38,10 @@ body {
 @keyframes ticker {
     0% { transform: translateX(0); }
     100% { transform: translateX(-50%); }
+}
+
+.top-content p {
+    margin: 0 0 0.25rem;
 }
 
 .center-content {
