@@ -3,7 +3,7 @@ body {
     padding: 0;
     background-color: rgb(19, 19, 19);
     color: #00ff00;
-    font-family: 'Bitcount Prop Single Ink', monospace;
+    font-family: 'Jersey 10', monospace;
     font-weight: 400;
     height: 100vh;
     display: flex;
@@ -26,6 +26,11 @@ body {
     animation: ticker 12s linear infinite;
 }
 
+/* spacing because silly */
+.ticker__inner > span::after {
+    content: "\00a0";
+}
+
 .ticker__inner.reverse {
     animation-direction: reverse;
 }
@@ -35,7 +40,7 @@ body {
     100% { transform: translateX(-50%); }
 }
 
-.middle-space {
+.center-content {
     flex: 1;
     display: flex;
     align-items: center;
